@@ -20,7 +20,6 @@ public class SendMailController {
         logger.info("SendMailController ..sendMail...");
 
         emailService.sendMail();
-
         return new ModelAndView("welcome", "message", "Merry Christmas");
     }
 
